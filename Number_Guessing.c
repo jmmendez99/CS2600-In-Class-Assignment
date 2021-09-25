@@ -14,3 +14,40 @@
 --Try to save max number of the program to a file and then read that number back into the program
   when you start it up again.
 */
+
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
+
+int random_num_generator(int max_number)
+
+int main() {
+
+    //Declarations
+    int user_choice;
+    int user_guess;
+    int winning_number;
+
+    //Get user input
+    printf("Press 1 to play a game\nPress 2 to change the max number\nPress 3 to quit\n");
+    scanf("%d\n", user_choice);
+
+    //Call random number generator function
+
+    //Outer Loop that will constantly print out the options of the game
+    while(user_choice != 3){
+        while(user_guess != winning_number){
+
+            //if Statement to see if user_guess is lower or higher than the winning number
+            
+
+        }
+
+    }
+
+    
+
+
+
+    return 0;
+}
